@@ -70,7 +70,6 @@ body{
     color: whitesmoke;
     font-size: small;
   }
-
  .c12
  {
   width: 50%;
@@ -84,25 +83,145 @@ body{
 
 .c2 
 {
-  height: 20%;
-  background-color: #e5e7eb;
+  height: 25%;
+  background-color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+ 
+ .c21
+ {
+  padding-bottom: 1.2%;
+ }
+ .c22
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+ }
+
+  .c221
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+   .c221 p
+    {
+      padding-right: 25%;
+      padding-left: 25%;
+      text-align: center;
+      font-size: smaller;
+    }
+
+   .c2211
+    {
+      border: 2px solid #3882F6;
+      height: 90px;
+      width: 90px;
+      border-radius: 8px;
+    }
 
 .c3
 {
   height: 27%;
-  background-color: #f9faf8;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3%;
 }
+
+ .c31 
+  {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-style: italic;
+  }
+
+  .c32
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+    font-weight: bolder;
+  }
+    
 
 .c4
 {
-  height: 25%;
-  background-color: #e5e7eb;
+  height: 20%;
+  background-color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
+ .c41
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: #3882F6;
+  height: 40%;
+  border-radius: 8px;
+ }
+
+   .c411
+   {
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 10%;
+    color: #e5e7eb;
+   }
+
+    .c411 p
+    {
+      font-size: smaller;
+    }
+
+   .c412
+   {
+    width: 40%;
+    
+   }
+    
+    .c412 button
+    {
+      padding-left: 6%;
+      padding-right: 6%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      border-radius: 6px;
+      background-color: #3882F6;
+      color: #e5e7eb;
+      border: solid 0.5px white;
+      
+    }
 
 .footer
 {
   height: 3%;
   background-color: #1F2937;
+  color: whitesmoke;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
